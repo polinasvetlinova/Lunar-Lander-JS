@@ -1,0 +1,116 @@
+body,html{height:100%;padding:0px;margin:0px;background-image: url(../img/f_ho.jpg)}
+.a,.b,.c{display:inline-block;width:33.33%;height:100%;float:left;}
+.d{height:10%;width:100%;position:fixed;bottom:0px;}
+#nave{text-align:center;position:fixed;top:10%;width:100%;height:20%;z-index: 2;}
+#nave img{height:100%;}
+#cpanel{}
+#hidem,#showm{display:none}
+#box_stats{
+	margin-left:3%;
+	margin-top:3%;
+	width:270px;
+	height: 200px;
+	display: block;
+	border: 1px solid green;
+	background: rgba(216, 209, 207,0.9);
+}
+h1{
+	color:rgb(107, 127, 162);
+	margin-left: 3%;
+}
+#speed{
+	position:fixed;
+	left: 170px;
+	top:39px;
+	width: 64px;
+	height: 25px;
+	border: 1px solid black;
+	background: rgba(172, 200, 250,0.5);
+}
+#gasolina{
+	position:fixed;
+	left: 170px;
+	top:99px;
+	width: 64px;
+	height: 25px;
+	border: 1px solid black;
+	background: rgba(172, 200, 250,0.5);
+}
+#height {
+	position:fixed;
+	left: 170px;
+	top:159px;
+	width: 64px;
+	height: 25px;
+	border: 1px solid black;
+	background: rgba(172, 200, 250,0.5);
+}
+#mensaje{
+	display:none;
+	position:fixed;
+	top:60%;
+	left:50%;
+	margin-top:auto;
+	text-align: center;
+	background: rgba(172, 200, 250,0.5);
+	border:1px solid white;
+	width: 150px;
+	height: 50px;		
+}
+
+#box_menu{
+	position:relative;
+	z-index: 3;
+	margin:0 auto;
+	display:block;
+	background:rgba(255,255,255,0.3);
+	width: 200px;
+	height: 150px;
+	margin-top:10%;
+	border: 1px solid blue;
+	padding:3%;
+}
+.menu h1{
+	text-align: center;
+}
+.menu ul{
+	list-style-type:none;
+	margin:auto;
+	padding:0;
+	width:100%;
+	background: rgba(0,100,255, 0.3);
+	border: 1px solid white;
+	font-size:18px;
+}
+.menu li a{
+	display:block;
+	color: rgb(0,0,0);
+	padding: 10px 20px;
+	text-decoration: none;
+
+}
+
+.menu li{
+	text-align:center;
+	border-bottom:1px solid white;
+	font-size:25px;
+	font-style:oblique;
+}
+.menu li:last-child{
+	border-bottom: none;
+}
+.menu li a:hover {
+    background: rgba(0,0,0,0.3);
+    color: white;
+}
+
+#inst,#abt{
+	display:none;
+	position:fixed;
+	top:40%;
+	right: 5%;
+	left:5%;
+	text-align: center;
+	background: rgba(172, 200, 250,0.5);
+	border:1px solid white;
+}
